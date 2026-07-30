@@ -1,0 +1,11 @@
+Polymorphism :
+ Poly means many .
+ morphism means formation.
+
+Types of Polymorphism:
+    1) Method Overloading => Same method name and different in arguments.
+    2) Method Overriding  => Same in method name and Same in arguments but different in content.
+
+ 
+
+ 

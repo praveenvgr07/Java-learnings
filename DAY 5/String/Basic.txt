@@ -1,0 +1,92 @@
+String name = "Saran";
+
+here name stored in stack and the Saran stored in Heap.
+
+if u store another string "Saran" in the name1
+
+there is a duplicated 
+
+to avoid duplicated there is an another concept (String constant pool)
+
+String constant pool:
+   it avoid the duplicated values 
+   if u create a another value with the same value 
+   by default it will when u create a duplicate value .
+   
+if u wanat the value in different lication u need to initialie 
+
+like :
+  String name = nwe String("Sham");
+
+to find the length of the string :
+
+      String str = "praveen";
+
+to find the length :
+      str.length();
+
+to find particular letter:
+
+      str.charAt(2);
+
+Upper Case :
+
+      str.UpperCase();
+      str.lowerCase();
+
+   StartsWith("string to start");
+   endsWith("strong to end");
+
+
+str = "praveen";
+str1 = "sham";
+
+str.conntains(str1);
+
+str.compareto(str1);
+  there are three typea :
+      1) positive.
+      2) negative.
+      3) zero.
+
+str.indexof('r'); => output is 1
+
+str.indexof('x'); =>by default ans will be -1
+
+Substring :
+      str.subString(7,11);
+
+trim:
+
+   => remove the white space.
+   str.trim();
+
+strip:
+
+   str.strip();
+
+split :
+
+   str = " welcome to java";
+   str.split(" ");
+
+then store in the array ;
+
+String[] arr =  str.split(" ");
+
+Enhance for loop:
+    for(String s : arr){
+      sout(s);
+    }
+Intern:
+
+   => refer the value in the Heap
+
+   String a  = "java";
+   String b = new String("java");
+   String c = a.intern();
+
+   sout(a == b); true
+   sout(a == c); false
+
+str.isEmpty();

@@ -1,0 +1,19 @@
+Ezceptiono Handling :
+        It is used when an unwxpected event happened in the program .
+
+Using Key Words :
+    1)try.
+    2)catch.
+    3)throws.
+    4)throw.
+    5)finally.
+
+Types of Ezceptiono:
+    1)Arithmetic  Exception.
+    2)ArrayIndexOutOfBound Exception.
+    3)Null Pointer Exception.
+    4)Input Mismatch Exception.
+    5)NumberFormatException.
+
+ Throw :
+        It is used to show the Exception by Our self.   

@@ -1,0 +1,6 @@
+Patterns :
+ How to analysis the Patterns
+ 1)Outer loop.=>for row.
+ 2)inner loop.=>for column.
+ 3)Print according to j column.
+ 4)Observe the Symentric Pattern

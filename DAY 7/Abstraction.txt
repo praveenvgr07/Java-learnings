@@ -1,0 +1,7 @@
+Abstraction :
+
+    => Hiding the process that we dont need.
+
+it has no object .
+In the Abstract mrthod there is no body.
+

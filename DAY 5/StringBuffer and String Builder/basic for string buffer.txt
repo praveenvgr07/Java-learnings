@@ -1,0 +1,8 @@
+String Builder :
+
+     => The String Builder is used to change the string.
+
+syntax :
+
+     StringBuilder sb = new StringBuilder("Sham");
+

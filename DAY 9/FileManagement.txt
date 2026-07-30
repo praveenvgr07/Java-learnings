@@ -1,0 +1,69 @@
+File Management:
+
+Stream :
+    => A stream is a sequence of elements used to process the data efficiently using operation like 
+    filtering , sorting , and mapping
+
+
+Types of Stream:
+
+    1)Binary Stream(Byte).=> it handles the 0's and 1's(png,jpg).
+    2)Character Stream.=> it handles the text , char , word.
+
+Types of Binary Stream:
+
+    1)Input Stream. => Read
+    2)Output Stream. => write
+
+Types of Character :
+
+    1)Reader.
+    2)Writer.
+
+Using the CreateNewFile() we can create the files .from the java program
+
+ __________                         _______________
+|create    |                       |               |
+|read      |                       |   java        |
+|write     |   stream              |    program    |
+|execute   | <=====================|               |
+|          |                       |_______________|
+|__________|
+
+Key words :
+
+    mkdr() => to create a folder
+    mkdrs() => to create a multiple files
+    read() => to read the file
+    getname() => to get the file name
+    Absolute Path() => to find the real path
+    canread() ===|
+    canwrite()===|====> permision Based
+    exists() => to check if the file is present or not
+
+    Syntax to create a file :
+
+    import java.io.File;
+    class class_name{
+        public static void main(String[] args){
+            File f = new File("location");//it will create the file Path
+            f.CreateNewFile(); // it is used to crete a file
+            
+
+        }
+    }
+
+FileWriter / BufferWriter :
+
+=> FileWriter is write the content directly into the local disk so it is too slow .
+
+=> BufferWriter is write in the RAM so fast.
+
+Syntex :
+
+    BufferWriter bw = new BufferWriter(new FileWriter("Path"));
+
+BufferReader:
+
+    syntax :
+        BufferReader br = new BufferReader(new FileReader("Path"));h

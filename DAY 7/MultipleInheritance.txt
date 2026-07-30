@@ -1,0 +1,24 @@
+Multiple Inheritance :
+
+            => using extends it only copy the only one class but we need to copy the two classes.
+Here we use the implements to connect more then one class.
+so , we use the interface .
+Both abstract and the interface are same.
+
+Sytax:
+   
+   interface Father {
+        void daddy();
+   }
+   interface Mother{
+        void mummy();
+   }
+   class child implements  Father,Mother{
+        // override the methods here.
+   }
+   public class Main{
+    public static void main(String[] args){
+
+    }
+   }
+

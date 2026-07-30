@@ -1,0 +1,7 @@
+Syntax :
+  return_type method_name(){
+    Statement;
+  }
+
+  How to call the Method :
+     Mwthod_name();

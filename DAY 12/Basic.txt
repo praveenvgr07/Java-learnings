@@ -1,0 +1,117 @@
+Framework :
+    it is used to write the logic the basic structure are in default.
+
+Collection Framework:
+    1)set 
+    2)List
+    3)queue
+
+set:(Interface) main point is it doesnt allow the duplicate value.
+    =>HashSet--------------|
+    =>Linkedhashset        |
+    =>SortedSet            |====>classes
+    =>TreeSet--------------|
+how it store the values:
+HashSet:
+formula:
+    =>adding element % size;
+    Example:
+        s.add(10);
+        s.add(25);
+        s.add(30);
+        s.add(40);
+        s.add(50);
+        10%5 = 0 it will store in the 0th  index.
+        =>it store in unorder and it is fast.(linkedhashset is stored in order and it is slow)
+TreeSet is stored in the sorted manner.      
+-----------------------------------------------------------------------------------------
+            |       HashSet        |       Linkedhashset              | TreeSet         | 
+------------|----------------------|----------------------------------|-----------------|
+duplicate   |      no              |            no                    |   no            |
+order       |      unorder         |            yes                   |   sorted+order  |
+fast/slow   |      fast            |            fast compare to tree  |   slow          |
+----------------------------------------------------------------------------------------|
+List:
+    =>ArrsyList
+    =>LinkedArrayList
+    =>Vector
+
+Queue:(Interface)=>First in first out
+
+    =>Deque.(remove)
+    =>Enque.(add)
+
+
+
+
+ArrsyList:
+    Declaration Syntax:
+
+        ArrayList<Data_type>ArrayList_name = new ArrayList<>;
+ 
+        Data_type = rapper it means object Integer use it instead of int.
+
+    add
+    get
+    set
+    remove
+    contains
+    clear
+    isEmpty
+    size
+    indexof
+    lastindexof
+
+LinkedList:
+            addfirst
+            addlast
+            getfirst
+            getlast
+            remove
+            removefirst
+            removelast
+            offer
+            peek
+            poll
+            push
+            pop
+            removefirstoccurance
+            removelastoccurance
+
+Map:
+    =>key-value pair;
+    =>value may be duplicate but the key must be unique.
+    0,Praveen
+    1,Harish
+    2,Bhuvanesh
+    3,Dhinesh
+    4,Mukesh
+How to declare:
+    HashMap<Integer,String> m = new HashMap<>();
+method:
+
+put
+putifAbsent
+get
+getorDefault
+remove
+replace
+containsKey
+containsValue
+KeySet
+values
+getKey
+getValues
+entryset
+size
+isEmpty
+clear
+
+
+Types of Map:
+
+
+
+
+
+

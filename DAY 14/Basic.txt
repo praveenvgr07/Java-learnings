@@ -1,0 +1,38 @@
+Complexicity:
+
+        => Complexity is a way to measure how efficient an algorithm is. 
+        It tells us how much time or memory a program needs as the input size grows.
+
+
+Types of Complexicity:
+        =>Time
+        =>Space
+
+1. Time Complexity
+
+       => It measures how long an algorithm takes to run.
+
+       => Suppose you have an array with n elements.
+
+2. Space Complexity
+
+       => It measures how much extra memory an algorithm uses.
+
+
+Common Time Complexities:
+
+--------------|---------------------------------------------------------------------------------| 
+Complexity    | 	     Name      |	                   Example                      |
+-------------------------------------------------------------------------------------------------                                                                                          
+O(1)	      |     Constant	       |           Access arr[5]                                |
+-------------------------------------------------------------------------------------------------                                                                                           
+O(log n)      |	   Logarithmic	       |         Binary Search                                  |
+-------------------------------------------------------------------------------------------------                                                                                         
+O(n)	      |    Linear	       |           Linear Search                                | 
+-------------------------------------------------------------------------------------------------                                                                                            
+O(n log n)    |	   Linearithmic	       |           Merge Sort, Heap Sort                        |
+------------------------------------------------------------------------------------------------                                                                                           
+O(n²)	      |     Quadratic	       |                   Bubble Sort, Selection Sort          |
+------------------------------------------------------------------------------------------------                                                                                          
+O(2ⁿ)	      |   Exponential	       |               Recursive subset generation              |
+-------------------------------------------------------------------------------------------------

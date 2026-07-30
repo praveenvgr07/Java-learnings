@@ -1,0 +1,53 @@
+Oops :
+
+Class :
+    Blue print of object 
+
+objects :
+    Instance of a class.
+
+Conxtructor :
+    it calls automatically when the object is created.
+
+Types of constructor:
+
+    1)default constructor .
+    2)parametarized constructor. maximum 4 paramter.
+    3)copy constructor.
+
+Encapsulation :
+
+    It is used to hide the data for the security purpose.
+    Here the access specifiers involverd in this fiels.
+
+    How to Access the private data uding setter () and getter ( ) methods 
+
+    setter is used to store the private data .
+    getter is used to read the private data.
+
+Syntax of setter :
+    public void setMethod_name(){
+
+    }
+
+Syntax for the getter :
+
+    public return_type getMethod_name(){
+        return_type;
+    }
+
+Inheritance :
+
+    =>Copy the properties of the parent class to the child  class.
+
+Types of Inheritance :
+
+    1)Single Inheritance.(parent and child)
+    2)Multiple Inheritance.-----------------------|
+    3)Multilevel Inheritance.(Features of stores) |
+    4)Herarical Inheritance.(Whatsapp)            |========> Inheritance not supported.
+    5)Hybrid Inheritance.-------------------------|
+
+
+
+

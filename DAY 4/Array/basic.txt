@@ -1,0 +1,30 @@
+What is Array ?
+     The is the collection of similar datatype stored in may or may not be continues .
+     Why may or may 
+Declaration of the aray :
+         data_type[] arr ;
+
+
+Initialization :
+    1. Compile time.
+    2. Run time.
+Compile time :
+    => we assign the value by default in the program.    
+    int [] arr = {1,2,3,4,5};
+
+if you print sout(arr);
+    then it show the address of the arr like [I@2f92e0f4.
+    to solve this problem we used to access the value use arr[0] it print the first elemant.
+
+so , now introduction to indexing concept.
+
+Here the "int [] arr" is stored in "stack" and the "values" are stored in the "Heap".
+
+Run time Initialization:
+int[] arr = new int[n]     
+arr={_,_,_,_,_,_,_}
+    0,1,2,3,4,5,6,7
+
+
+
+
