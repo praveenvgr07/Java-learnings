@@ -1,0 +1,7 @@
+
+# Ignore local and generated files
+Problems/
+*.class
+*.log
+*.tmp
+
